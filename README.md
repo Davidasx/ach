@@ -2,6 +2,8 @@
 
 Atcoder Commandline Helper
 
+Note:You can run the file install_dependencies.bat(windows only) to install dependencies（chocolatey required).
+
 # Requirements
 
 [python](https://www.python.org/)
