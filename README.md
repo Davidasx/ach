@@ -8,6 +8,8 @@ Atcoder Commandline Helper
 
 [node.js](https://nodejs.org)
 
+[cf-tool](https://github.com/xalanq/cf-tool)  (for testing code,please configure templates before installation)
+
 # Installation
 
 1.Install [online-judge-tools](https://github.com/online-judge-tools/oj).
