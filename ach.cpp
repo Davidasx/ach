@@ -93,7 +93,7 @@ int main(int argc,char** argv){
 		system("acc tasks"+args[2]);
 	else if(args[1]=="init") init();
 	else{
-		cout<<"Atcoder Commandline Helper(ach) v1.0"<<endl;
+		cout<<"Atcoder Commandline Helper(ach) v1.1"<<endl;
 		cout<<"If you've never used this before,please run `ach init`"<<endl;
 		cout<<"Usage:"<<endl;
 		cout<<"ach submit [OJOPTIONS]:submit a task"<<endl;
