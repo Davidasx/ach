@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int system(string s){
-	system(s.data());
+	return system(s.data());
 }
 void init(){
 	system("acc config oj-path oj");
@@ -66,13 +66,13 @@ int main(int argc,char** argv){
 			string s="0";
 			s[0]+=i;
 			ifstream fin(("sample-"+s+".in").data());
-			if(fin==NULL) break;
+			if(!fin) break;
 			fin.close();
 			ifstream fin2(("in"+s+".txt").data());
-			if(fin2==NULL) system("copy \"sample-"+s+".in\" \"in"+s+".txt\"");
+			if(!fin2) system("copy \"sample-"+s+".in\" \"in"+s+".txt\"");
 			fin2.close();
 			ifstream fin3(("ans"+s+".txt").data());
-			if(fin3==NULL) system("copy \"sample-"+s+".out\" \"ans"+s+".txt\"");
+			if(!fin3) system("copy \"sample-"+s+".out\" \"ans"+s+".txt\"");
 			fin3.close();
 		}
 		system("cf test");
@@ -105,4 +105,3 @@ int main(int argc,char** argv){
 	}
 	return 0;
 }
-
